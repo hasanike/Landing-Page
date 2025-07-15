@@ -7,6 +7,7 @@
 }
 
 h2 {
+    display: flex;
     font-size: 48px;
     color: #1f2937;
     font-weight: 900px;
@@ -38,4 +39,19 @@ ul  {
 .bluebox, 
 button {
     background-color: #3882f6;
+}
+
+.gray {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 150px;
+}
+
+.white ul{
+    display: flex;
+    flex: 1 1 auto;
+
 }
