@@ -6,18 +6,35 @@
     background-color: #1F2937;
 }
 
-h2 {
+.navy {
     display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.navbar {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.navbar ul, 
+.navy p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.navycontent {
+    
+
+}
+
+.navy body{}
+
+
+
+h2 {
     font-size: 48px;
     color: #1f2937;
     font-weight: 900px;
-    justify-content: center;
-}
-
-.navy-body p, 
-.navbar ul {
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 h1 {
@@ -29,11 +46,6 @@ ul  {
     list-style: none;
     display: flex;
     gap: 10px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
 }
 
 .bluebox, 
