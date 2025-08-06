@@ -44,7 +44,9 @@ h2 {
 h3 {
     font-weight: 900px;
 }
-
+.gray {
+    background-color: #E5E7EB;
+}
 .gray p{
     font-style: italic;
 }
