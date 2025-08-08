@@ -24,7 +24,7 @@ h3, .gray p {
     color: #E5E7EB;
 }
 
-button, .bluebox {
+button, .bluebox, h3 {
     background-color: #3382F6;
     color:#E5E7EB;
 }
@@ -41,8 +41,6 @@ h2 {
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
     font-weight: 900px;
 }
 .gray {
@@ -169,8 +167,17 @@ button {
     align-items: right;
 }
 
+
+.bluebox {
+    display: flex;
+    margin: 110px;
+    width: 600px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
 .blueboxcontent {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    }
+
+}
