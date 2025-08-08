@@ -9,7 +9,7 @@
     background-color: #1f2937;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #f9faf8;
 }
 
@@ -19,13 +19,14 @@ h3, .gray p {
 }
 
 .navy ul,
-.navytext p {
+.navytext p, .bluebox {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 button, .bluebox {
     background-color: #3382F6;
+    color:#E5E7EB;
 }
 
 h1 {
@@ -53,6 +54,7 @@ h3 {
 
 .navy {
     display: flex;
+    flex: 1;
     justify-content: center;
     flex-direction: column;
     
@@ -166,3 +168,9 @@ button {
     display: flex;
     align-items: right;
 }
+
+.blueboxcontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
