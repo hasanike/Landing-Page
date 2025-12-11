@@ -1,3 +1,25 @@
+* {
+    font-family: roboto;
+}
+
 .hero, footer {
     background-color: #1F2937;
+}
+
+h1 {
+    font: 24px;
+    color: #f9faf8;
+}
+
+
+h2 {
+    font: 48px;
+    color: #f9faf8;
+    weight: 900px;
+}
+
+
+.hero ul, .headerbody p {
+    font: 18px;
+    color: #e5e7eb;
 }
