@@ -2,24 +2,23 @@
     font-family: roboto;
 }
 
-.hero, footer {
+#box1, footer {
     background-color: #1F2937;
 }
 
-h1 {
+nav p {
     font: 24px;
     color: #f9faf8;
 }
 
-
-h2 {
+h1 {
     font: 48px;
     color: #f9faf8;
     weight: 900px;
 }
 
 
-.hero ul, .headerbody p {
+#box1 ul, .box1 p {
     font: 18px;
     color: #e5e7eb;
 }
